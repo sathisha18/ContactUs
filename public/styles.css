@@ -1,0 +1,34 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Light background color for the whole page */
+}
+
+.container {
+    background-color: #ffffff; /* White background for the contact form container */
+    border-radius: 8px; /* Rounded corners for the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow around the container */
+    padding: 20px; /* Padding inside the container */
+    max-width: 600px; /* Max width for the container */
+    margin: 20px auto; /* Center container horizontally */
+}
+
+.centered-button {
+    display: block;
+    margin: 0 auto;
+}
+
+h1.display-5 {
+    margin-bottom: 20px; /* Margin below the heading */
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 15px; /* Reduced padding on smaller screens */
+    }
+    
+    .w-50 {
+        width: 100%; /* Full width for the form on smaller screens */
+    }
+}
